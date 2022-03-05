@@ -1,0 +1,68 @@
+.container_carrousel {
+  position: relative;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.kv_s22 {
+  width: 100%;
+}
+.description {
+  z-index: 1;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+.preorder_button {
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 80px;
+  background-color: black;
+  transition: all 0.5s ease;
+
+  a {
+    font-weight: normal;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.preorder_button:hover {
+  background-color: white;
+  color: black;
+}
+.preorder_button a:hover {
+  background-color: white;
+  color: black;
+}
+
+.learnmore_button {
+  text-decoration: none;
+  border: none;
+  padding-right: 3px;
+
+  a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+}
+
+.learnmore_button a:hover {
+  font-weight: 900;
+  background-color: white;
+}
+
+.description h1 {
+  padding-bottom: 15px;
+}
+
+.description p {
+  padding-bottom: 20px;
+  font-weight: lighter;
+}

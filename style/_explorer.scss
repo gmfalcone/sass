@@ -1,0 +1,71 @@
+.title_explore {
+  text-align: center;
+  font-weight: 500;
+  margin: 1rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.grid_deals {
+  display: grid;
+  background-color: #efefef;
+  grid-template-areas:
+    "Big_Tile Products Watch"
+    "Big_Tile Home_appliences Soundbar";
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  border-radius: 10px;
+  height: 550px;
+  margin: 40px;
+  justify-items: center;
+  align-items: center;
+}
+section {
+  padding: 2rem;
+}
+
+.grid_units {
+  padding: 5px;
+  justify-self: center;
+}
+
+.grid_units:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#Big_Tile {
+  grid-area: Big_Tile;
+
+  .grid_title {
+    padding-top: 3rem;
+  }
+
+  img {
+    width: 500px;
+    border-radius: 5px;
+  }
+}
+
+#Products {
+  grid-area: Products;
+}
+
+#Watch {
+  grid-area: Watch;
+}
+
+#Home_appliences {
+  grid-area: Home_appliences;
+}
+
+#Soundbar {
+  grid-area: Soundbar;
+}
+
+.grid_title {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}

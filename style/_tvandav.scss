@@ -1,0 +1,36 @@
+.tv_cards_container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  overflow: hidden;
+
+  p {
+    z-index: 1;
+    text-align: center;
+    color: white;
+  }
+}
+.tv_cards {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: 20px;
+  width: 350px;
+  height: 450px;
+  border: 1px solid grey;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.tv_img_card:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.tv_img_card {
+  object-fit: cover;
+}
+
+p .colour_change {
+  color: black;
+}
