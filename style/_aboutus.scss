@@ -6,6 +6,7 @@
     padding-bottom: 2rem;
   }
 }
+$mostrar: true;
 
 .container_history {
   padding: 0.5rem;
@@ -26,6 +27,12 @@
   padding-bottom: 1rem;
 }
 
-table tr th {
+/*table tr th {
   color: #2874a6;
+}*/
+
+.dates {
+  @if $mostrar {
+    color: red;
+  }
 }

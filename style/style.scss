@@ -172,3 +172,11 @@ ol li a:hover {
     transform: translateX(0px);
   }
 }
+
+.dates {
+  @if $mostrar {
+    color: red;
+  }
+}
+
+$mostrar: true;

@@ -291,8 +291,11 @@ section {
   padding-bottom: 1rem;
 }
 
-table tr th {
+/*table tr th {
   color: #2874a6;
+}*/
+.dates {
+  color: red;
 }
 
 .container_carrousel {
@@ -626,5 +629,9 @@ ol li a:hover {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
+}
+
+.dates {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
