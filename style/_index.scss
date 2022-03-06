@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   align-content: space-around;
-  margin: 10px;
+  margin: 5px;
   width: 300px;
 
   h3 {
@@ -23,20 +23,27 @@
   }
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  position: relative;
+// header {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 10px;
+//   position: relative;
 
-  a img {
-    width: 150px;
-    height: 100x;
-    margin: 10px;
-  }
+//   a img {
+//     width: 150px;
+//     height: 100x;
+//     margin: 10px;
+//   }
+// }
+
+.navbar-brand img {
+  width: 150px;
+  height: 100x;
+  margin: 10px;
+  padding-right: 2rem;
 }
-
+/*
 nav ul li {
   display: inline-block;
   padding: 10px;
@@ -51,15 +58,15 @@ nav ul li {
 
 nav ul li a:hover {
   font-weight: bold;
-}
+}*/
 
 .footer {
   width: 1200px;
   background-color: lightgray;
   padding-top: 0em;
   text-align: center;
-  padding: 1rem;
-  margin: 1.8rem;
+  padding: 0.5rem;
+  margin: 1rem;
 
   h3 {
     letter-spacing: 0.1rem;
