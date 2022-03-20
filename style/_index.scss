@@ -96,3 +96,167 @@ nav ul li a:hover {
 .footer-conteiner i:hover {
   color: #202020;
 }
+/*Carousel
+
+#carouselExampleCaptions {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+.carousel-caption {
+  color: white;
+  font-style: 2rem;
+  top: 150px;
+}
+
+.carousel-caption h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+  font-style: 2rem;
+  top: 150px;
+  left: 5%;
+}
+
+.carousel-caption.p_white {
+  font-style: 1rem;
+  color: white;
+  top: 240px;
+  left: 5%;
+}
+.carousel-item .p_kv2_black {
+  font-style: 1rem;
+  color: black;
+  top: 200px;
+  left: 5%;
+}
+.carousel-item .p_kv3_black {
+  font-style: 1rem;
+  color: black;
+  top: 240px;
+  left: 5%;
+}
+
+
+
+carousel-caption a:hover {
+  font-weight: 800;
+  color: white;
+}
+
+carousel-caption a:hover {
+  background-color: #505050;
+}
+
+@media screen and (max-width: 500px) {
+  .main_kv {
+    background: url("../videos/Main-KV_720x1080_mo.webm");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+}
+*/
+
+.carousel-inner {
+  height: 32rem;
+  color: black;
+  position: relative;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 240px;
+  left: 5%;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.img-card {
+  width: 360px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+/* section 3 */
+
+.galaxy-watch_title h2 {
+  text-align: center;
+  padding-bottom: 5px;
+  vertical-align: middle;
+}
+
+.galaxy-watch_section {
+  display: flex;
+  position: relative;
+  height: 600px;
+  padding: 0.5em;
+}
+
+.galaxy_img {
+  height: 80%;
+  border-radius: 5%;
+  animation: from-left 4s ease;
+}
+
+.galaxy-watch_list {
+  flex-direction: column;
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+ol li a {
+  position: absolute;
+  align-items: flex-start;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+ol li a:hover {
+  font-weight: lighter;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.row li a {
+  padding-bottom: 6px;
+  border-bottom: solid 0.5px black;
+}
+
+/* ANIMATION */
+@keyframes from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
